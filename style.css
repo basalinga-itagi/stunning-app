@@ -1,0 +1,242 @@
+body {
+  margin: none;
+  /* box-sizing: border-box; */
+  font-family: sans-serif;
+  background-color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* margin:20px 0px 30px 50px; */
+}
+
+.logo {
+  width: 120px;
+  height: 50px;
+  /* margin:20px 0px 30px -10px; */
+}
+
+.header nav a {
+  padding: 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-flex;
+  font-weight: bold;
+  color: rgb(168, 167, 167);
+  font-family: sans-serif;
+}
+
+.header nav a:hover {
+  text-decoration: underline 3px rgb(132, 43, 235);
+  text-underline-position: under;
+  color: black;
+}
+
+.header button {
+  border-radius: 20px;
+  border-style: none;
+  background-color: pink;
+  width: 120px;
+  height: 50px;
+  margin: 15px 40px 20px 30px;
+  color: rgb(132, 43, 235);
+}
+
+/*---------------------------------------------------------------------- */
+
+.description h1 {
+  font-size: 90px;
+  padding-left: 130px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+.description p {
+  font-size: 20px;
+  padding-left: 130px;
+  padding-top: 0px;
+  color: rgb(97, 96, 96);
+}
+
+.desc-footer {
+  display: flex;
+  width: 540px;
+  align-items: center;
+}
+
+.desc-footer button {
+  color: #ffffff;
+  background-color: #5243c0;
+  height: 60px;
+  width: 150px;
+  border: 1px solid blue;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-left: 130px;
+  margin-right: 10px;
+}
+
+.user-one {
+  display: flex;
+  border: 1px solid;
+  border-style: none;
+  border-radius: 15px;
+  background-color: rgb(245, 245, 245);
+  height: 50px;
+  width: 450px;
+  margin: 20px 30px 7px 130px;
+  align-items: center;
+  color: rgb(194, 186, 186);
+  font-weight: bold;
+}
+
+.user-one:hover {
+  box-shadow: 10px 10px 50px 10px rgb(221, 221, 221);
+  background-color: rgb(255, 255, 255);
+  background-image: url("/images/tick-blue.png");
+  background-repeat: no-repeat;
+  /* margin: 8px 15px 5px 10px; */
+  background-position-x: 10px;
+  background-position-y: 9px;
+  color: #8840da;
+}
+
+.user-one:hover .graytick {
+  opacity: 0;
+}
+
+.user-two {
+  display: flex;
+  border: 1px solid;
+  border-style: none;
+  border-radius: 15px;
+  background-color: rgb(245, 245, 245);
+  height: 50px;
+  width: 450px;
+  margin: 5px 30px 7px 130px;
+  align-items: center;
+  color: rgb(194, 186, 186);
+  /* justify-content: space-between; */
+}
+
+.user-two:hover {
+  box-shadow: 10px 10px 40px 2px #ccc;
+  background-color: rgb(255, 255, 255);
+  background-image: url("/images/tick-blue.png");
+  background-repeat: no-repeat;
+  /* margin: 8px 15px 5px 10px; */
+  background-position-x: 10px;
+  background-position-y: 8px;
+  color: #8840da;
+}
+
+.user-two:hover .graytick2 {
+  opacity: 0;
+}
+
+.user-three {
+  display: flex;
+  border: 1px solid;
+  border-style: none;
+  border-radius: 15px;
+  background-color: rgb(245, 245, 245);
+  height: 50px;
+  width: 450px;
+  margin: 5px 30px 7px 130px;
+  align-items: center;
+  color: rgb(194, 186, 186);
+  /* justify-content: space-between; */
+}
+
+.user-three:hover {
+  box-shadow: 10px 10px 40px 2px #ccc;
+  background-color: rgb(255, 255, 255);
+  background-image: url("/images/tick-blue.png");
+  background-repeat: no-repeat;
+  /* margin: 8px 15px 5px 10px; */
+  background-position-x: 10px;
+  background-position-y: 8px;
+  color: #8840da;
+}
+
+.user-three:hover .graytick3 {
+  opacity: 0;
+}
+
+.user-four {
+  display: flex;
+  border: 1px solid;
+  border-style: none;
+  border-radius: 15px;
+  background-color: rgb(245, 245, 245);
+  height: 50px;
+  width: 450px;
+  margin: 5px 30px 0px 130px;
+  align-items: center;
+  color: rgb(194, 186, 186);
+  /* justify-content: space-between; */
+}
+
+.user-four:hover {
+  box-shadow: 10px 10px 40px 2px #ccc;
+  background-color: rgb(255, 255, 255);
+  background-image: url("/images/tick-blue.png");
+  background-repeat: no-repeat;
+  /* margin: 8px 15px 5px 10px; */
+  background-position-x: 10px;
+  background-position-y: 8px;
+  color: #8840da;
+}
+
+.user-four:hover .graytick4 {
+  opacity: 0;
+}
+
+.light {
+  border: 1px solid pink;
+
+  height: 7px;
+  width: 15px;
+  border-radius: 5px;
+  background-color: pink;
+}
+
+.light2 {
+  border: 1px solid orange;
+
+  height: 7px;
+  width: 15px;
+  border-radius: 5px;
+  background-color: orange;
+}
+
+.light3 {
+  border: 1px solid yellowgreen;
+
+  height: 7px;
+  width: 15px;
+  border-radius: 5px;
+  background-color: yellowgreen;
+}
+
+.light4 {
+  border: 1px solid rgb(226, 168, 80);
+
+  height: 7px;
+  width: 15px;
+  border-radius: 5px;
+  background-color: rgb(226, 168, 80);
+}
+
+main {
+  display: flex;
+}
+
+.landing-pic {
+  margin-top: 30px;
+}
+
+.big-picture {
+  /* padding: 20px; */
+  height: 620px;
+  width: 600px;
+}
